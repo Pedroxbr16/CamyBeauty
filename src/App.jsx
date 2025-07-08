@@ -15,7 +15,7 @@ function App() {
 
         <div className="buttons">
           <a
-            href="https://exemplo.com/agendamento"
+            href="https://online.maapp.com.br/camilagualandebeauty"
             className="link-button"
             target="_blank"
             rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function App() {
             Agende seu horário
           </a>
           <a
-            href="https://wa.me/5599999999999"
+            href="https://api.whatsapp.com/send/?phone=5521966762411&text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20um%20hor%C3%A1rio"
             className="link-button"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function App() {
             Marque seu horário
           </a>
           <a
-            href="https://instagram.com/seuusuario"
+            href="https://www.instagram.com/camilagualande"
             className="link-button"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function App() {
             Nosso Instagram
           </a>
           <a
-            href="https://maps.google.com/?q=Seu+Salão"
+            href="https://www.google.com/maps/search/?api=1&query=Estrada%20do%20Lameir%C3%A3o%2030,%20Santissimo%20-%20RJ,%2023092032"
             className="link-button"
             target="_blank"
             rel="noopener noreferrer"
