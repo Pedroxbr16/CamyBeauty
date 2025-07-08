@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to bottom, #333333 33%, #E8DDD1 100%);
   display: flex;
   justify-content: center;
@@ -47,18 +47,18 @@ body, html {
   font-size: 20px;
 }
 
-/* Grid dos botões */
+/* Botões no mobile */
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 60px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
   padding: 0 10px;
 }
 
-/* Botões estilosos com ícones */
+/* Botão padrão */
 .link-button {
-  padding: 20px 30px;
+  padding: 16px 24px;
   border-radius: 50px;
   background-color: white;
   font-weight: bold;
@@ -70,6 +70,8 @@ body, html {
   align-items: center;
   justify-content: center;
   color: #333;
+  width: 100%;
+  max-width: 320px;
 }
 
 .link-button:hover {
@@ -83,21 +85,21 @@ body, html {
   vertical-align: middle;
 }
 
-/* Cores específicas para cada ícone */
+/* Cores dos ícones */
 .icon.calendar {
-  color: #7C3AED; /* Roxo */
+  color: #7C3AED;
 }
 .icon.whatsapp {
-  color: #25D366; /* Verde WhatsApp */
+  color: #25D366;
 }
 .icon.instagram {
-  color: #E1306C; /* Rosa Instagram */
+  color: #E1306C;
 }
 .icon.location {
-  color: #4285F4; /* Azul Google Maps */
+  color: #4285F4;
 }
 
-/* Responsivo: 2 colunas no desktop */
+/* Layout em grid apenas no desktop */
 @media (min-width: 600px) {
   .profile-pic {
     width: 200px;
@@ -105,19 +107,19 @@ body, html {
   }
 
   .buttons {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 170px;
-    margin: 0 auto;
+    gap: 30px;
+    justify-items: center;
   }
 
   .link-button {
-    width: 100%;
-    height: 150px;
+    height: 140px;
     font-size: 16px;
+      padding: 16px 5px;
   }
 
   .icon {
     font-size: 22px;
-    margin-right: 10px;
   }
 }

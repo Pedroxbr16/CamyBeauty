@@ -14,19 +14,39 @@ function App() {
         <p className="subtitle">Agende sua transformação <span className="emoji">👇🏽</span></p>
 
         <div className="buttons">
-          <a href="https://exemplo.com/agendamento" className="link-button" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://exemplo.com/agendamento"
+            className="link-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaCalendarCheck className="icon calendar" />
             Agende seu horário
           </a>
-          <a href="https://wa.me/5599999999999" className="link-button" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://wa.me/5599999999999"
+            className="link-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaWhatsapp className="icon whatsapp" />
             Marque seu horário
           </a>
-          <a href="https://instagram.com/seuusuario" className="link-button" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://instagram.com/seuusuario"
+            className="link-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram className="icon instagram" />
             Nosso Instagram
           </a>
-          <a href="https://maps.google.com/?q=Seu+Salão" className="link-button" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://maps.google.com/?q=Seu+Salão"
+            className="link-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaMapMarkerAlt className="icon location" />
             Como chegar
           </a>
